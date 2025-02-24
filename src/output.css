@@ -628,20 +628,60 @@ video {
   height: 40px;
 }
 
+.h-\[48px\] {
+  height: 48px;
+}
+
 .w-\[150px\] {
   width: 150px;
+}
+
+.w-\[222px\] {
+  width: 222px;
+}
+
+.w-\[240px\] {
+  width: 240px;
 }
 
 .w-\[90\%\] {
   width: 90%;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
 .w-\[90\] {
   width: 90;
 }
 
-.w-\[240px\] {
-  width: 240px;
+.w-\[162px\] {
+  width: 162px;
+}
+
+.w-\[28px\] {
+  width: 28px;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[185\] {
+  width: 185;
+}
+
+.w-\[185px\] {
+  width: 185px;
 }
 
 .shrink {
@@ -670,6 +710,14 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-\[10px\] {
   gap: 10px;
 }
@@ -686,23 +734,35 @@ video {
   gap: 80px;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-\[50px\] {
   gap: 50px;
 }
 
-.gap-\[0px\] {
-  gap: 0px;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .rounded-\[30px\] {
   border-radius: 30px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
   border-width: 1px;
 }
 
@@ -712,6 +772,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-green-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));
 }
 
 .border-r-gray-400 {
@@ -734,6 +799,11 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[10px\] {
   padding: 10px;
 }
@@ -746,6 +816,11 @@ video {
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
 }
 
 .pl-\[10px\] {
@@ -772,12 +847,28 @@ video {
   font-size: 18px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .text-\[50px\] {
   font-size: 50px;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .italic {
@@ -787,6 +878,11 @@ video {
 .text-green-600 {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
